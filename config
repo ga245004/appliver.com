@@ -9,3 +9,8 @@ mail-smtp-options               : {"secure":false,"port":25,"user":"","password"
 mail-address-from               : your@yourwebsite.com
 mail-address-reply              : your@yourwebsite.com
 mail-address-copy               :
+
+// IMPORTANT FOR HEROKU
+default-ip                     : auto
+default-port                   : auto
+default-image-converter        : im
